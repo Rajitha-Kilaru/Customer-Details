@@ -1,0 +1,14 @@
+<h1>Edit Customer</h1>
+<form>
+	<label>First Name: </label>
+	<input type="text" name="fname" [(ngModel)]="selectData[0].firstName"><br><br>
+	<label>Last Name: </label>
+	<input type="text" name="lname" [(ngModel)]="selectData[0].lastName"><br><br>
+	<label>Address: </label>
+	<input type="text" name="addr" [(ngModel)]="selectData[0].address"><br><br>
+	<label>City: </label>
+	<input type="text" name="city" [(ngModel)]="selectData[0].city"><br><br>
+	<label>State: </label>
+	<input type="text" name="state" [(ngModel)]="selectData[0].state.name"><br><br>
+	<!-- <button (click)="editData()">Edit</button> -->
+</form>	

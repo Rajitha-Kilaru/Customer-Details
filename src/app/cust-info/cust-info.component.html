@@ -1,0 +1,24 @@
+<h1>Customer Information</h1>
+
+<div>
+	<ul type="none">
+		<li>Customer Details</li>
+		<li><a (click)="custOrder(selectedPersonrData)">Customer Orders</a></li>
+		<li><a (click)="editRouteFunc(selectedPersonrData)" >Edit Customer</a></li>
+	</ul>	
+</div>	
+<!-- <div class="para">
+	 <h4>{{particularData.firstName}}  {{particularData.lastName}}</h4>
+	 <p>{{particularData.address}}</p>
+	 <p>{{particularData.city}} </p>
+	 <p>{{particularData.state.name}}</p>
+</div> -->
+<div class="para">
+	<h4>Name:  {{selectedPersonrData[0].firstName}}  {{selectedPersonrData[0].lastName}}</h4>
+	<p>Address:  {{selectedPersonrData[0].address}}</p>
+	<p>City:  {{selectedPersonrData[0].city}}</p>
+	<p>State:  {{selectedPersonrData[0].state.name}}</p>
+</div>	
+
+
+	
